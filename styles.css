@@ -1,0 +1,407 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: black;
+}
+
+main {
+    padding: 2em;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+button {
+    margin-top: 10px;
+}
+
+.footer {
+    background-color: #333;
+    color: #fff;
+    padding: 1em;
+    text-align: center;
+    clear: both;
+}
+
+#navbarSupportedContent {
+    margin-left: 150px;
+}
+
+.top-img {
+    height: 100px;
+    width: auto;
+}
+
+.nav-link {
+    color: white;
+    margin: 0 10px;
+}
+
+.nav-link:hover {
+    color: #f0f2f5;
+}
+
+.navb {
+    color: white;
+    font-family: Rubik;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 21.33px;
+    text-align: left;
+    background-color: black;
+    border-top: 4px solid white;
+    border-bottom: 4px solid white;
+}
+
+.navbar-nav {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.navbar-toggler {
+    border: none;
+}
+
+.item {
+    margin-left: 300px;
+}
+
+.icons {
+    color: white;
+    display: inline;
+    margin-left: 50px;
+    padding-top: 5px;
+}
+
+.icon {
+    padding-top: 5px;
+    padding-left: 10px;
+    color: white;
+}
+
+.navbar-toggler-icon {
+    background-image: url('data:image/svg+xml;charset=utf8,<svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="white"><path d="M3 6h24M3 12h24M3 18h24"/></svg>');
+}
+
+.top {
+    background-color: black;
+    text-align: center;
+    padding: 10px;
+}
+
+.card {
+    margin-top: 30px;
+    border-radius: 20px;
+    margin-left: 170px;
+    width: 700px;
+    background-color: #333;
+}
+
+.carc {
+    color: white;
+    padding-left: 130px;
+}
+
+.card-text {
+    color: grey;
+    padding-top: 50px;
+    font-size: xx-large;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.six {
+    color: grey;
+    margin-top: -10px;
+}
+
+.card-title {
+    margin-top: 10px;
+}
+
+.btn {
+    border: 1px solid blue;
+    background-color: transparent;
+    color: white;
+    border-radius: 20px;
+}
+
+.bottom {
+    padding-top: 20px;
+    background-color: black;
+}
+
+.lin {
+    margin-left: 200px;
+    margin-top: 30px;
+}
+
+.bottom-container {
+    margin-top: 20px;
+    background-color: rgba(52, 51, 52, 0.671);
+    color: white;
+}
+
+.kamal {
+    padding-top: 20px;
+    padding-left: 120px;
+    color: white;
+    font-size: 46px;
+    font-family: myfont;
+    font-weight: 300;
+}
+
+.maria {
+    padding-left: 210px;
+}
+
+.anc {
+    background-color: #333;
+    margin-left: 2px;
+    margin-top: -3px;
+    margin-bottom: 8px;
+    padding: 10px 10px;
+    font-size: 10px;
+    cursor: pointer;
+    display: inline-flex;
+    color: white;
+    text-decoration: none;
+}
+
+.td {
+    margin-left: 10px;
+}
+
+.Bicon {
+    padding-left: 120px;
+}
+
+.td2h {
+    padding-left: 120px;
+    padding-top: 30px;
+}
+
+.lcon {
+    display: inline;
+    padding-left: 15px;
+    margin-top: -5px;
+}
+
+.h {
+    margin-top: -5px;
+    color: #969696;
+}
+
+.pag {
+    margin-top: -5px;
+    padding-left: 10px;
+}
+
+.psoc {
+    padding-left: 10px;
+}
+
+.hloc {
+    margin-top: 10px;
+    color: #969696;
+}
+
+@font-face {
+    font-family: myfont;
+    src: url(fontie.ttf);
+}
+
+.come {
+    color: #f9f9f9;
+    padding-top: 40px;
+    padding-left: 450px;
+    font-family: myfont;
+    font-size: 100px;
+}
+
+.nb {
+    margin-left: 30px;
+}
+
+.bar {
+    width: 100%;
+    height: auto;
+}
+
+@media (max-width: 768px) {
+    .top-img {
+        height: 80px;
+        width: auto;
+    }
+    .nav-link {
+        margin: 0 5px;
+    }
+    .bottom-container {
+        margin-top: 20px;
+        padding: 10px;
+    }
+}
+
+@media (max-width: 768px) {
+    .navbar-nav {
+        flex-direction: column;
+        text-align: center;
+    }
+    .nav-link {
+        margin: 5px 0;
+    }
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: #9F9898F2;
+}
+
+.bar {
+    margin-bottom: 20px;
+    margin-left: 300px;
+    height: 100px;
+    width: 850px;
+}
+
+.card-img {
+    border-radius: 20px;
+    height: 380px;
+    width: 350px;
+}
+
+.kamal {
+    padding-top: 20px;
+    padding-left: 120px;
+    color: white;
+    font-size: 46px;
+    font-family: hisfont;
+    font-weight: 300;
+}
+
+.navbar-nav {
+    margin-left: 300px;
+    margin-right: auto;
+    display: flex;
+    justify-content: center;
+    /* Centers the nav items */
+    gap: 20px;
+    /* Adds space between nav items */
+}
+
+.nav-link {
+    color: white;
+    padding: 0 15px;
+    /* Adds space between each nav item */
+}
+
+.navbar-icons {
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+    gap: 0px;
+    /* Removes space between icons */
+}
+
+.navbar-icons .icon {
+    color: white;
+    font-size: 20px;
+    /* Adjust icon size */
+    padding: 5px;
+    cursor: pointer;
+}
+
+.navbar-icons .icon:hover {
+    color: #f0f2f5;
+    /* Change icon color on hover */
+}
+
+.nav-item {
+    gap: 0px;
+}
+
+.nav-item {
+    margin: 0;
+    /* Remove margin from nav items */
+}
+
+.nav-link {
+    padding: 0;
+    /* Remove padding from links */
+    margin: 0;
+    /* Remove margin from links */
+}
+
+.nav-link i {
+    font-size: 20px;
+    /* Adjust size as needed */
+    margin: 0;
+    /* Remove margin around icons */
+    padding: 0;
+    /* Remove padding around icons */
+    display: inline-block;
+    /* Ensure icons are inline */
+    line-height: 1;
+    /* Align icons properly */
+    gap: 0px;
+}
+
+.navbar-icons {
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+}
+
+.nav-item.contact-us {
+    margin-right: 42px;
+    /* Adjust as needed for exact spacing */
+}
+
+.navbar-icons .nav-item {
+    margin: 0;
+    /* Remove any default margin */
+}
+
+.navbar-icons .nav-link {
+    padding: 0;
+    /* Remove any padding */
+}
+
+.navbar-icons .nav-link i {
+    margin: 0;
+    /* Remove any margin around the icons */
+}
+
+.card {
+    margin-top: 30px;
+    /* Adjust as needed */
+    margin-bottom: 30px;
+}
+
+.catalog-section {
+    margin-top: 88px;
+    /* Adjust this value to add space */
+}
+
+
+/* Ensure no color change for the icons */
+
+.lcon i {
+    color: inherit;
+    /* Inherits color from parent element */
+}
+
+
+/* If you need to specifically set the color of the icons */
+
+.lcon a {
+    color: inherit;
+    /* Ensures the icon color is inherited from its parent */
+    text-decoration: none;
+    /* Removes underline from links */
+}
